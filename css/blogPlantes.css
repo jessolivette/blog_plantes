@@ -1,0 +1,57 @@
+body {
+  background-image: url("https://images.freeimages.com/images/large-previews/37b/after-the-rain-1379585.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    text-shadow: 2px 2px 6px black, 3px 3px 8px black;
+    }
+
+h3 {
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    color: #3A0B3F;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-indent: 10px;
+    font-size: 28px;
+}
+
+i {
+    color: green
+}
+
+ul {
+    list-style-type : circle ;
+}
+
+li:hover {
+    background-color: rgb(177, 239, 69, 0.2);
+}
+
+#section {
+    font-family: 'Montez', cursive;
+    font-size: 25px;
+    background-color: #ffffff99;
+    margin: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.danger {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 18px;
+    color: red;
+}
