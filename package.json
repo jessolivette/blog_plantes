@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "env NODE_ENV=production npx eleventy",
-    "serve": "npx @11ty/eleventy --serve",
-    "deploy": "gh-pages -d _site",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d _site"
   },
   "homepage": "/blog_plantes",
   "keywords": [],
