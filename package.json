@@ -1,0 +1,20 @@
+{
+  "name": "blog_plantes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "env NODE_ENV=production npx eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "deploy": "gh-pages -d _site",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "/blog_plantes",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "gh-pages": "^3.1.0"
+  }
+}
