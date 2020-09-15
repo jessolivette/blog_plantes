@@ -4,11 +4,3 @@ module.exports = function(eleventyConfig) {
     passthroughFileCopy: true
   }
 }
-
-return {
-    pathPrefix: "/blog_plantes/"
-}
-
-module.exports = {
-    pathPrefix: "/blog_plantes/"
-};
