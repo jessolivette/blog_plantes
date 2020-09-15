@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "env NODE_ENV=production npx eleventy",
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'blog_plantes'",
     "deploy": "gh-pages -d _site"
   },
   "homepage": "/blog_plantes",
