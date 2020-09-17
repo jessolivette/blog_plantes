@@ -8,7 +8,7 @@
     "deploy": "gh-pages -d _site"
   },
   "homepage": "/blog_plantes",
-  "keywords": [plantes, sauvages, commestibles, Aude, Occitanie, médicinales, adventices],
+  "keywords": ["plantes", "sauvages", "commestibles", "Aude", "Occitanie", "médicinales", "adventices"],
   "author": "jessolivette",
   "license": "MIT",
   "devDependencies": {
