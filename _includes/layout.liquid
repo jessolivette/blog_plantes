@@ -16,11 +16,13 @@
         </style>
     </head>
     <body>
-      <header><a href="{{ '/' | url }}">Accueil</a></header>
-      <h1>{{ pageTitle }}</h1>
+      <header>
+        <h1>{{ pageTitle }}</h1>
+      </header>
       <div class="section">
         <h3>{{ subTitle }}</h3>
         {{ content }}
       </div>
+      <button><a href="{{ '/' | url }}" id="homeLink">Accueil</a></button>
     </body>
 </html>
