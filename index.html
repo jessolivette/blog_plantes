@@ -3,6 +3,6 @@ layout: home.liquid
 pageTitle: Plantes sauvages commestibles de l'Aude
 ---
 
-{% for post in collections.posts %}
-  <h3><a href="{{ post.url | url }}">{{ post.data.pageTitle }} <i> {{ post.data.subTitle }}</i></a></h3>
+{%- for post in collections.posts -%}
+  <h4><a href="{{ post.url | url }}">{{ post.data.pageTitle }} <i> {{ post.data.subTitle }}</i></a></h4>
 {% endfor %}
